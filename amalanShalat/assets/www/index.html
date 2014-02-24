@@ -1,0 +1,43 @@
+<!DOCTYPE html> 
+<html> 
+	<head> 
+		<title>Main</title> 
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link rel="stylesheet" href="css/jquery.mobile-1.4.1.min.css" />
+	</head> 
+	<body> 
+	
+		<div data-role="page" data-theme="a">
+
+		  <div data-role="header" data-theme="b">
+			  <h1 style="white-space: normal">Amalan Shalat</h1>
+			</div>
+
+			<div role="main" class="ui-content" style="text-align:center;">
+				<div class="ui-grid-b">
+                    <img src="img/taweez-small-a.jpg" alt="taweez" style="width:auto; height:50%" />
+                </div>
+				<ul data-role="listview" data-inset="true">
+					<li><a href="maghrib.html">Maghrib</a></li>
+					<li><a href="isya.html">Isya'</a></li>
+					<li><a href="lail.html">Qiyamu 'l-Lail (Shalat Malam)</a></li>
+					<li><a href="shubuh.html">Shubuh/Fajr</a></li>
+                    <li><a href="isyraq.html">Isyraq</a></li>
+                    <li><a href="dhuha.html">Dhuha</a></li>
+                    <li><a href="dzuhur.html">Dzuhur</a></li>
+                    <li><a href="ashar.html">Ashar</a></li>
+				</ul>
+			</div>
+
+		</div>
+		
+		<script type="text/javascript" src="js/jquery-1.10.2.min.js"></script>
+		<script type="text/javascript" src="js/jquery.mobile-1.4.1.min.js"></script>
+		<script type="text/javascript" src="js/cordova.js"></script>
+        <script type="text/javascript" src="js/index.js"></script>
+		<script type="text/javascript">
+            app.initialize();
+        </script>
+        		
+	</body>
+</html>
